@@ -1,1 +1,1 @@
-NEEO Server multi-device example, slightly refactored, to allow for drivers to be installed via npm.
+export OPPO20XIP=192.168.1.1
