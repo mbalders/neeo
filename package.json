@@ -1,0 +1,23 @@
+{
+  "name": "neeo-multi-device",
+  "version": "0.0.1",
+  "description": "npm friendly, multi-device, single server instance, neeo sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbalders/neeo-multi-device.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbalders/neeo-multi-device/issues"
+  },
+  "homepage": "https://github.com/mbalders/neeo-multi-device#readme",
+  "dependencies": {
+    "neeo-oppo-udp-20x": "git+https://github.com/mbalders/neeo-oppo-udp-20x.git",
+    "neeo-sdk": "^0.48.13"
+  }
+}
