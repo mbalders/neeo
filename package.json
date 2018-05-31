@@ -2,9 +2,9 @@
   "name": "balders-neeo",
   "version": "0.0.1",
   "description": "personal NEEO setup",
-  "main": "index.js",
   "scripts": {
-    "start": "neeo-sdk start"
+    "start": "neeo-sdk start",
+    "install": "node install-devices.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,9 @@
     "brainHost": "192.168.1.114",
     "oppoIp": "192.168.1.155",
     "jvcIp": "192.168.1.124"
+  },
+  "neeoDevices": {
+    "neeo-oppo-udp-20x": "https://github.com/mbalders/neeo-oppo-udp-20x.git",
+    "neeo-jvc-dlax-rs-ip": "https://github.com/mbalders/neeo-jvc-dlax-rs-ip.git"
   }
 }
