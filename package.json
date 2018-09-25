@@ -9,17 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "neeo-sdk": "^0.50.5"
+    "@neeo/cli": "^1.1.0",
+    "neeo-denon-avr-ip": "git+https://github.com/mbalders/neeo-denon-avr-ip.git",
+    "neeo-jvc-dlax-rs-ip": "git+https://github.com/mbalders/neeo-jvc-dlax-rs-ip.git",
+    "neeo-oppo-udp-20x": "git+https://github.com/mbalders/neeo-oppo-udp-20x.git",
+    "neeo-sdk": "^0.51.13"
   },
   "neeoSdkOptions": {
     "brainHost": "192.168.1.114",
     "oppoIp": "192.168.1.155",
     "jvcIp": "192.168.1.124",
     "denonIp": "192.168.1.200"
-  },
-  "neeoDevices": {
-    "neeo-oppo-udp-20x": "https://github.com/mbalders/neeo-oppo-udp-20x.git",
-    "neeo-jvc-dlax-rs-ip": "https://github.com/mbalders/neeo-jvc-dlax-rs-ip.git",
-    "neeo-denon-avr-ip": "https://github.com/mbalders/neeo-denon-avr-ip.git"
   }
 }
