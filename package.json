@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "personal NEEO setup",
   "scripts": {
-    "start": "neeo-sdk start",
+    "start": "npx neeo-cli start",
     "install": "node install-devices.js"
   },
   "author": "",
@@ -19,6 +19,6 @@
     "brainHost": "192.168.1.114",
     "oppoIp": "192.168.1.155",
     "jvcIp": "192.168.1.124",
-    "denonIp": "192.168.1.200"
+    "denonIp": "192.168.1.180"
   }
 }
