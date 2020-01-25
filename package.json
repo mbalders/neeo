@@ -22,6 +22,7 @@
     "jvcIp": "192.168.1.124",
     "denonIp": "192.168.1.180",
     "HA_URL": "https://lavinia.duckdns.org",
-    "HA_PASSWORD": "qaAxGdj676BDU8qZmmeaZ"
+    "HA_USER": "neeo"
+    "HA_PASSWORD": "neeo"
   }
 }
